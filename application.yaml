@@ -7,8 +7,8 @@ spec:
   project: default
 
   source:
-    repoURL: https://gitlab.com/nanuchi/argocd-app-config.git
-    targetRevision: HEAD
+    repoURL: https://github.com/SharkyND/argocd-config-app.git
+    targetRevision: main
     path: dev
   destination: 
     server: https://kubernetes.default.svc
